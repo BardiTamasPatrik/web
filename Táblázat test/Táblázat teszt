@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bardi Tamás órai munka</title>
+</head>
+<body>
+    <table>
+        <caption>BTP Órarend</caption>
+        
+        <tr>
+            <th>Óraszám</th>
+            <th>Idő</th>
+            <th>Hétfő</th>
+            <th>Kedd</th>
+        <th>Szerda</th>
+    <th>Csütörtök</th>
+<th>Péntek</th>
+        </tr>
+
+        <tr>
+            <td>0</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>.</td>
+            <td>8:00 - 8:45</td>
+            <td>8:55 - 9:40</td>
+            <td>9:50 - 10:35</td>
+            <td>10:45 - 11:30</td>
+            <td>11:40 - 12:25</td>
+            <td>12:45 - 13:30</td>
+            <td>13:35 - 14:20</td>
+        </tr>
+        <tr>
+            <td>.</td>
+            <td>Angol Nyelv</td>
+            <td>Történelem</td>
+            <td>Testnevelés</td>
+            <td>Komplex Természet.</td>
+            <td>Digitális Kul.</td>
+            <td>Digitális Kul.</td>
+            <td>Fejlesztő fog.</td>
+        </tr>
+
+        <tr>
+            <td>Matek</td>
+            <td>osztályfőnöki</td>
+            <td>Történelem</td>
+            <td>Magyar nyelv és irodalom</td>
+            <td>Informatika és távk</td>
+            <td>Informatika és távk</td>
+            <td>informatika és távk</td>
+            <td>Angol nyelv</td>
+        </tr>
+
+<a href="index.HTML/index.html">VISSZA A FŐ OLDALRA</a>
