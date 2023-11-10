@@ -8,27 +8,42 @@
 <body>
     <h1>BT bolt</h1>
     <form action="">
-        <fieldset>
-         <legend>Sajt</legend>
-         <input type="radio" name="Sajt" id="USS1">
-         <label for="USS1">Edámi</label>
-         <br>
-         <input type="radio" name="Sajt" id="USS2">
-         <label for="USS2">Gouda</label>
-         <br>
-         <input type="radio" name="Sajt" id="USS3">
-         <label for="USS3">Casu Marzu</label>
-         <br>
-         <input type="radio" name="Sajt" id="USS4">
-         <label for="USS4">Mozarella</label>
+        <legend>Rendeléshez</legend>
+            <br>
+            <input type="text" placeholder="Add meg a neved">
+            <br>
+            <input type="tel" name="tel" id="tel" placeholder="telefon számod">
+            <br><br>
+            <input type="email" name="nev" id="mail" placeholder="email címed">
+            <br>
+            <h4>Add meg a nemed:</h4>
+            <input type="radio" name="nem" id="fiu">
+            <label for="fiu">FIÚ</label>
+            <input type="radio" name="nem" id="lany">
+            <label for="lany">LÁNY</label>
         </fieldset>
         <fieldset>
-         <legend>Túró</legend>
-         <input type="Radio" name="Túró" id="TR1">
-         <label for="TR1">Műanyag dobozos</label>
+         <legend>Figurák</legend>
+         <input type="radio" name="Figurák" id="USS1">
+         <label for="USS1">Autó</label>
          <br>
-         <input type="radio" name="Túró" id="TR2">
-         <label for="TR2">Zacskós</label>
+         <input type="radio" name="Figurák" id="USS2">
+         <label for="USS2">Repülő</label>
+         <br>
+         <input type="radio" name="Figurák" id="USS3">
+         <label for="USS3">Harci hajó</label>
+         <br>
+         <input type="radio" name="Figurák" id="USS4">
+         <label for="USS4">Tankok</label>
+        </fieldset>
+        <fieldset>
+         <legend>modellek</legend>
+         <input type="Radio" name="modellek" id="TR1">
+         <label for="TR1"></label>
+         <br>
+         <input type="radio" name="modellek" id="TR2">
+         <label for="TR2"></label>
+        
         </fieldset>
         
         <fieldset>
@@ -41,13 +56,37 @@
         <br>
         </fieldset>
         <fieldset>
-            <legend>Rendelés Adatai</legend>
-            <input type="text" name="nev" placeholder="Első név"
+            <legend>Rendelés idő</legend>
+            <label for="ido">kiszállítás ideje:</label>
             <br>
-            <input type="text" name="Mnev" placeholder="Második név"
+            <input type="date" name="ido" id="ido">
             <br>
-
+            <input type="time" name="ido" id="ido2">
         </fieldset>
+        <br>
+        <input type="checkbox" name="felh" id="felh" checked>
+        <label for="felh">A felhasználói feltételek elfogadása!<fieldset>
+            <legend>Rendelés idő</legend>
+            <label for="ido">kiszállítás ideje:</label>
+            <br>
+            <input type="date" name="ido" id="ido">
+            <br>
+            <input type="time" name="ido" id="ido2">
+        </fieldset>
+        <fieldset>
+            <legend>Rendelés idő</legend>
+            <label for="ido">kiszállítás ideje:</label>
+            <br>
+            <input type="date" name="ido" id="ido">
+            <br>
+            <input type="time" name="ido" id="ido2">
+        </fieldset>
+        <br>
+        <input type="checkbox" name="felh" id="felh" checked>
+        <label for="felh">A felhasználói feltételek elfogadása!</label>
+        <br><br>
+        <input type="button" value="RENDELÉS!">
+        <input type="reset" value="VISSZAVONÁS">
     </form>
 </body>
 </html>
