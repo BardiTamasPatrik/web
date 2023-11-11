@@ -6,7 +6,7 @@
     <title>Weblap Barditp</title>
 </head>
 <body>
-    <h1>BT bolt</h1>
+    <h1>BT Háborús boltja</h1>
     <form action="">
         <legend>Rendeléshez</legend>
             <br>
@@ -24,8 +24,6 @@
         </fieldset>
         <fieldset>
          <legend>Figurák</legend>
-         <input type="radio" name="Figurák" id="USS1">
-         <label for="USS1">Autó</label>
          <br>
          <input type="radio" name="Figurák" id="USS2">
          <label for="USS2">Repülő</label>
@@ -36,25 +34,48 @@
          <input type="radio" name="Figurák" id="USS4">
          <label for="USS4">Tankok</label>
         </fieldset>
-        <fieldset>
-         <legend>modellek</legend>
-         <input type="Radio" name="modellek" id="TR1">
-         <label for="TR1"></label>
-         <br>
-         <input type="radio" name="modellek" id="TR2">
-         <label for="TR2"></label>
-        
-        </fieldset>
-        
-        <fieldset>
-        <legend>Vegetáriánus Tej</legend>
-        <input type="Radio" name="tej" id="tj1"
-        <label for="tj1">Kókusz</label>
+     <fieldset>
+<legend>tank modellek</legend>
+<input type="radio" name="tank modellek" id="TNK1">
+<label for="TNK1">M4A2 sherman</label>
+<br>
+<input type="radio" name="tank modellek" id="TNK2">
+<label for="TNK2">Panzer III</label>
+<br>
+<input type="radio" name="tank modellek" id="TNK3">
+<label for="TNK3">T34(1941)</label>
+<br>
+<label for="db">Mennyi legyen?</label>
+            <input type="number" name="db" id="db" value="1" min="1" max="10" style="width: 35px;">
+     </fieldset>
+     <fieldset>
+<legend>Repülő figurák</legend>
+<input type="radio" name="Repülő figurák" id="RPK1">
+<label for="RPK1">Supermarine Spitfire MK2</label>
+<br>
+<input type="radio" name="Repülő figurák" id="RPK2">
+<label for="RPK2">JU-87 Stuka</label>
+<br>
+<input type="radio" name="Repülő figurák" id="RPK3">
+<label for="RPK3">Mávag Héja</label>
+<br>
+<label for="db">Mennyi legyen?</label>
+            <input type="number" name="db" id="db" value="1" min="1" max="10" style="width: 35px;">
+     </fieldset>
+    <fieldset>
+        <legend>Harci Hajó Figurák</legend>
+        <input type="radio" name="Harci hajó figurák" id="HHF1">
+        <label for="HHF1">USS Des Moines CA-143</label>
         <br>
-        <input type="radio" name="tej" id="tj2"
-        <label for="tj2">Rizs</label>
+        <input type="radio" name="Harci hajó figurák" id="HHF2">
+        <label for="HHF2">Tirpitz</label>
         <br>
-        </fieldset>
+        <input type="radio" name="Harci hajó figurák" id="HHF3"> 
+<label for="HHF3">King George V</label>
+<br>
+<label for="db">Mennyi legyen?</label>
+            <input type="number" name="db" id="db" value="1" min="1" max="10" style="width: 35px;">
+    </fieldset>
         <fieldset>
             <legend>Rendelés idő</legend>
             <label for="ido">kiszállítás ideje:</label>
@@ -88,5 +109,7 @@
         <input type="button" value="RENDELÉS!">
         <input type="reset" value="VISSZAVONÁS">
     </form>
+
+    <a href="index.html" target="_blank">vissza a fő oldalra.</a>
 </body>
 </html>
