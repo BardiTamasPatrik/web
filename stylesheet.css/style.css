@@ -1,0 +1,24 @@
+nav{
+    text-decoration: none;
+    color: gold;
+}
+nav a:hover{
+    color: firebrick;
+    background-color: black;
+    font-weight: bold;
+}
+body{
+    background-color: maroon;
+    color: black
+}
+footer{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 130px;
+    text-decoration:underline;
+    font-weight: bold;
+}
+p{
+    color:aquamarine;
+    font-size: medium;
+}
