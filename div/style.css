@@ -1,0 +1,38 @@
+#kek{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    float: left;
+    }
+    
+    #piros{
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        float: left;
+    }
+    #zold{
+        background-color: green;
+        float: below;
+        height: 100px;
+        width: 220px;
+        clear: both;
+        margin: 10px;
+    }
+    #kek:hover{
+    background-color: aquamarine;
+    transform: scale(1.2);
+    transition: 0.9s;
+    }
+    #piros:hover{
+        background-color: blueviolet;
+        transform: scale(1.2);
+        transition: 0.8s;
+    }
+    #zold:hover{
+        background-color: darkolivegreen;
+        transform: scale(1.2);
+        transition: 0.7s;
+    }
