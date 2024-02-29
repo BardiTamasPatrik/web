@@ -60,8 +60,31 @@
         erat volutpat. Nulla sit amet dolor euismod mauris convallis ultricies. Cras rhoncus orci lorem, vel sodales
         arcu maximus at. Cras libero urna, tristique vel ligula id, dictum dictum erat. Sed molestie ornare dolor, id
         ornare ex egestas in. Nullam velit nulla, varius sit amet nisi at, vestibulum pharetra justo.</p>
+        <p>
+            számológép:
+        </p>
+<input type="button" value="felugró ablak" onclick="katt()">
+<script>
+    function katt() {
+        let szam1 , szam2 , eredmeny ;
+
+        szam1 = Number(prompt("Első szám")) ;
+        while(Number.isNaN(szam1)) {
+            szam1 = Number(prompt("Ismered a számokat te bolond?")) ;
+        }
+
+        szam2 = Number (prompt("Masodik  szam")) ;
+        while(Number.isNaN(szam2)) {
+         szam1 = Number(prompt("Ismered a számokat te bolond?")) ;
+        }
+
+        eredmeny = szam1 + szam2;
+
+        alert("A ketto szam(ok) összege:" + eredmeny)
+    }
+</script>
         <footer> <br>
-            Steal my shit and i will give you testicular torsion. <br>
+            <br>
             copyright: BTP
             bardit@kkszki.hu <br>
             +06307258287
