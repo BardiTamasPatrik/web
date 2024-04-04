@@ -83,6 +83,24 @@
         alert("A ketto szam(ok) összege:" + eredmeny)
     }
 </script>
+
+<h2>képcserélő</h2>
+<div style="width: 500px; height: 500px; border-radius: 25px; background-color: blanchedalmond; margin:auto;"><h1>Csere program fr</h1>
+    <img src="img/will-smith-c-hfpa-2016.webp" style="margin: auto; height: 450px; display: block;" id="Smith" onclick="Smith()" >
+    <img src="img/Monkey-Selfie.webp" style="margin: auto; display: none;" id="monki" onclick="monki()">
+ </div>
+        <script>
+            function Smith(){
+                document.getElementById("Smith").style.display = "none"
+                document.getElementById("monki").style.display = "block"
+}
+                function monki(){
+                document.getElementById("monki").style.display = "none"
+                document.getElementById("Smith").style.display = "block"
+                
+                }
+
+        </script>
         <footer> <br>
             <br>
             copyright: BTP
